@@ -1,4 +1,4 @@
 # replacePlaceholder
 function for replace placeholders
 
-Could be usefuul for prepairing mail templates and app views
+Could be useful for prepairing mail templates and app views
