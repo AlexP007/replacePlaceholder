@@ -1,4 +1,12 @@
 <?php
+/**
+* @param $data - array,
+* where keys are placeholder
+* and values ara new string
+*
+* @param $str - string, where
+* replacement need to be done
+*/
 function replacePlaceholder(array $data, string $str) {
     $from = array_map(function($elt) {
         return preg_replace('/(\S+)/', '#$0#', $elt);
