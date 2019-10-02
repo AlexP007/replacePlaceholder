@@ -6,6 +6,8 @@
 *
 * @param $str - string, where
 * replacement need to be done
+*
+* @return string
 */
 function replacePlaceholder(array $data, string $str) {
     $from = array_map(function($elt) {
